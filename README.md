@@ -7,7 +7,9 @@
 # pip install pypng #
 
 import pyqrcode
+
 import png
+
 from pyqrcode import QRCode
 
 # Link desejado para o QRCode 
