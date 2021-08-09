@@ -1,21 +1,21 @@
-# qrcode_Python
+# qrcode_Python #
 
-#instalar
+#instalar #
 
-#pip install PyQRCode
+#pip install PyQRCode #
 
-#pip install pypng
+#pip install pypng #
 
 import pyqrcode
 import png
 from pyqrcode import QRCode
 
-# Link desejado para o QRCode #
+# Link desejado para o QRCode 
 QRString = 'http://www.google.com'
 
-# Monta o QRCode #
+# Monta o QRCode 
 url = pyqrcode.create(QRString)
 
-# Salva o QRCode gerado no local desejado #
+# Salva o QRCode gerado no local desejado 
 url.png(r'imagem.png', scale=8)
 
