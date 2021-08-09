@@ -18,6 +18,6 @@ QRString = 'http://www.google.com'
 # Monta o QRCode 
 url = pyqrcode.create(QRString)
 
-# Salva o QRCode gerado no local desejado 
+# Salva o QRCode  
 url.png(r'imagem.png', scale=8)
 
